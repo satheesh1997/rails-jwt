@@ -1,24 +1,16 @@
-# README
+# rails-jwt
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple rails api that uses jwt token for authentication
 
-Things you may want to cover:
+urls present:
+  1. POST /auth/login/ -> authenticates the user and displays the token
+  2. GET /users/ -> lists all the users
+  3. POST /users/ -> create a new user
+  4. PUT /users/{username} -> updates a user
+  5. DELETE /users/{usernmae} -> deletes the particular user
+  6. GET /users/{username} -> shows the details of the particular user
+  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Note:
+  This webapp is developed while trying to explore how to build a auth
+ system for rest-api in rails.
